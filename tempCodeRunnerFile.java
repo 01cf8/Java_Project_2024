@@ -1,0 +1,1 @@
+int factorial = 1;
