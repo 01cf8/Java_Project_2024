@@ -2,6 +2,21 @@ import java.util.Scanner;
 
 public class AreaCalculator {
 
+    // Method to calculate the area of a circle
+    public static double area(double radius) {
+        return (22.0 / 7) * radius * radius;
+    }
+
+    // Method to calculate the area of a square
+    public static double area(double side, boolean isSquare) {
+        return side * side;
+    }
+
+    // Method to calculate the area of a rectangle
+    public static double area(double length, double breadth) {
+        return length * breadth;
+    }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -37,20 +52,5 @@ public class AreaCalculator {
                 break;
         }
         scanner.close();
-    }
-
-    // Method to calculate the area of a circle
-    public static double area(double radius) {
-        return (22.0 / 7) * radius * radius;
-    }
-
-    // Method to calculate the area of a square
-    public static double area(double side, boolean isSquare) {
-        return side * side;
-    }
-
-    // Method to calculate the area of a rectangle
-    public static double area(double length, double breadth) {
-        return length * breadth;
     }
 }
