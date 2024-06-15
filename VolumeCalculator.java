@@ -4,7 +4,7 @@ public class VolumeCalculator {
 
     // Method to calculate the volume of a sphere
     public double volume(double radius) {
-        return (4.0 / 3) * (22.0 / 7) * radius * radius * radius;
+        return (4 / 3.0) * (22.0 / 7) * radius * radius * radius;
     }
 
     // Method to calculate the volume of a cylinder
