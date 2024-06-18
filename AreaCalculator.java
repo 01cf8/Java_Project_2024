@@ -20,8 +20,8 @@ public class AreaCalculator {
 
             case 2:
                 System.out.println("Enter the side length of the square:");
-                double side = scanner.nextDouble();
-                System.out.println("Area of Square: " + area(side, true));
+                int side = scanner.nextInt();
+                System.out.println("Area of Square: " + area(side));
                 break;
 
             case 3:
@@ -45,7 +45,7 @@ public class AreaCalculator {
     }
 
     // Overloaded method to calculate the area of a square
-    public static double area(double side, boolean isSquare) {
+    public static double area(int side) {
         return side * side;
     }
 
